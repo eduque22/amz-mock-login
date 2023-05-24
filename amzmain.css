@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url(./Amazon\ Ember.ttf);
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Amazon Ember';
+}
+
+.logo{
+    height: 300px;
+    width: 300px;
+    margin-top: -100PX;
+    margin-left: 30px;
+}
+
+.bigbox{
+    border: solid 1px rgb(187, 183, 183);
+    border-radius: 3px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin-top:-50px;
+    height: 300px;
+}
+
+div h1{
+    color: #111111;
+    font-size: 28px;
+    font-family: 'Amazon Ember';
+    margin: 0px 0px 10px;
+    padding: 0px 0px 4px;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.help_links {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.styledhr {
+    border: 1px solid grey;
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+.lines{
+    position: relative;
+    max-width: 500px;
+    margin-top: 17px;
+    text-align: center;
+    color: gray;
+    max-height: 50px;
+  }
+  
+.lines:before{
+    content:" ";
+    height: 2px;
+    width: 150px;
+    background: gray;
+    display: inline-block;
+    position: relative;
+    left: 0%;
+    vertical-align:middle
+  }
+  
+.lines:after{
+    content:" ";
+    height: 2px;
+    width: 150px;
+    background: gray;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+  }
+
+  span button{
+    background-color: #E7E9EC;
+    width: 340px;
+    margin-top: 20px;
+    border: solid 1px #E7E9EC;
+    outline: solid 1px gray;
+    font-size: 14pt;
+    border-radius: 1px;
+  }
+
+  #formstyled button{
+    background-color: #F8CA00;
+    padding: 3px 5px;
+  }
+
+  #formstyled {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+  }
+
+  .help{
+    margin-top: 65px;
+    margin-bottom: 15px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 14pt;
+  }
+
+  .contin {
+    background-color: #F7C547;
+    padding: 3px 5px;
+    border-radius: 1px;
+    width: 378px;
+    margin-top: 20px;
+  }
+
+span a {
+  margin-left: 119px;
+}
+
+footer p{
+  text-align: center;
+  margin-top: 30px;
+}
+
+a {
+  color: rgb(12, 105, 210);
+}
+
+form span {
+  padding: 5px;
+}
+
+span input {
+  margin-top: 10px;
+  padding: 2px;
+}
+
+span label {
+  margin-bottom: 3px;
+}
